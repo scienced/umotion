@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+	<!--[if IE 8]>
+		<html xmlns="http://www.w3.org/1999/xhtml" class="ie8" lang="nl-NL">
+	<![endif]-->
+	<!--[if !(IE 8) ]><!-->
+		<html xmlns="http://www.w3.org/1999/xhtml" lang="nl-NL">
+	<!--<![endif]-->
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Inloggen &lsaquo; uMotion &#8212; WordPress</title>
+	<link rel='dns-prefetch' href='https://s.w.org' />
+<link rel='stylesheet' href='wp-admin/load-styles.php-c=1&amp;dir=ltr&amp;load%5B%5D=dashicons,buttons,forms,l10n,login&amp;ver=4.9.5.css' type='text/css' media='all' />
+<script type='text/javascript' src='wp-includes/js/jquery/jquery-ver=1.12.4.js'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min-ver=1.4.1.js'></script>
+<style type="text/css">#wp-submit{     text-shadow: none;
+    border: 1px solid #002337;
+    color: #000;
+    background: #fff;
+    border-radius: 0.7rem;
+    box-shadow: none;
+    font-size: 14px;
+    line-height: 33px;
+    height: 35px;
+    padding: 0 18px;}
+#wp-submit:hover{ 
+    background: #002438;
+    color: #cbb888;}
+body.login{ background: #393F4F; background-image: url('wp-content/uploads/2017/09/promo-slide.jpg'); background-repeat: no-repeat; background-position: top left; background-size: cover;}
+.login label{ color: #222; font-size: 12px; text-transform: uppercase;}
+.login form .forgetmenot label{ font-family: arial; font-weight: 100; text-transform: inherit; line-height: 36px;}
+.login form .input, .login input[type=text]{ font-family: arial; font-weight: 100; font-size: 19px; padding: 10px 10px;}
+.login form{ padding: 26px;}
+.login h1{ height: 192px;}
+.login h1 a{ background: url('wp-content/themes/umotion/assets/images/icons/logo.png') no-repeat;     height: 192px; width: 133px;}
+
+.login #nav{ text-align: center;}
+.login #nav a{ color: #cbb888;}
+.login #nav a:hover{ color: #cbb888; text-decoration: underline;}
+#backtoblog{ text-align: center;}
+#backtoblog a{ color: #cbb888!important;}
+#backtoblog a:hover{ text-decoration: underline;}
+.login #login_error, .login .message{ border-left: 4px solid #94c12e;}
+
+.login form .input, .login input[type=text]{ border: 1px solid #ccb988;}
+#wp-submit{     text-shadow: none;
+    border: 1px solid #002337;
+    color: #000;
+    background: #fff;
+    border-radius: 0.7rem;
+    box-shadow: none;
+    font-size: 14px;
+    line-height: 33px;
+    height: 35px;
+    padding: 0 18px;}
+#wp-submit:hover{ 
+    background: #002438;
+    color: #cbb888;}
+body.login{ background: #393F4F; background-image: url('wp-content/uploads/2017/09/promo-slide.jpg'); background-repeat: no-repeat; background-position: top left; background-size: cover;}
+.login label{ color: #222; font-size: 12px; text-transform: uppercase;}
+.login form .forgetmenot label{ font-family: arial; font-weight: 100; text-transform: inherit; line-height: 36px;}
+.login form .input, .login input[type=text]{ font-family: arial; font-weight: 100; font-size: 19px; padding: 10px 10px;}
+.login form{ padding: 26px;}
+.login h1{ height: 192px;}
+.login h1 a{ background: url('wp-content/themes/umotion/assets/images/icons/logo.png') no-repeat;     height: 192px; width: 133px;}
+
+.login #nav{ text-align: center;}
+.login #nav a{ color: #cbb888;}
+.login #nav a:hover{ color: #cbb888; text-decoration: underline;}
+#backtoblog{ text-align: center;}
+#backtoblog a{ color: #cbb888!important;}
+#backtoblog a:hover{ text-decoration: underline;}
+.login #login_error, .login .message{ border-left: 4px solid #94c12e;}
+
+.login form .input, .login input[type=text]{ border: 1px solid #ccb988;}
+</style> <script type="text/javascript"> jQuery(document).ready(function(){ jQuery("#login").wrap("<div id='wlcms-login-wrapper'></div>"); }); </script> <meta name='robots' content='noindex,follow' />
+	<meta name="viewport" content="width=device-width" />
+		</head>
+	<body class="login login-action-login wp-core-ui  locale-nl-nl">
+		<div id="login">
+		<h1><a href="https://nl.wordpress.org/" title="Mogelijk gemaakt door WordPress" tabindex="-1">Mogelijk gemaakt door WordPress</a></h1>
+	
+<form name="loginform" id="loginform" action="wp-login.php.html" method="post">
+	<p>
+		<label for="user_login">Gebruikersnaam of e-mailadres<br />
+		<input type="text" name="log" id="user_login" class="input" value="" size="20" /></label>
+	</p>
+	<p>
+		<label for="user_pass">Wachtwoord<br />
+		<input type="password" name="pwd" id="user_pass" class="input" value="" size="20" /></label>
+	</p>
+		<p class="forgetmenot"><label for="rememberme"><input name="rememberme" type="checkbox" id="rememberme" value="forever"  /> Onthoud mij</label></p>
+	<p class="submit">
+		<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Inloggen" />
+		<input type="hidden" name="redirect_to" value="https://www.umotion.eu/wp-admin/" />
+		<input type="hidden" name="testcookie" value="1" />
+	</p>
+</form>
+
+<p id="nav">
+	<a href="mijn-account/lost-password/index.html">Wachtwoord vergeten?</a>
+</p>
+
+<script type="text/javascript">
+function wp_attempt_focus(){
+setTimeout( function(){ try{
+d = document.getElementById('user_login');
+d.focus();
+d.select();
+} catch(e){}
+}, 200);
+}
+
+wp_attempt_focus();
+if(typeof wpOnload=='function')wpOnload();
+</script>
+
+	<p id="backtoblog"><a href="index.html">&larr; Terug naar uMotion</a></p>
+	
+	</div>
+
+	
+		<div class="clear"></div>
+	</body>
+	</html>
+	
